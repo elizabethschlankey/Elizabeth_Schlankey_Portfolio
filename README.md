@@ -1,2 +1,2 @@
-# Elizabeth_Schlankey_Portfolio
+# My_Portfolio
 My career journey
