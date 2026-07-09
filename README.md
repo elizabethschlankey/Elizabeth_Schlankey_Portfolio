@@ -1,2 +1,2 @@
-# Elizabeth_Schlankey_Portfolio
+# Elizabeth Schlankey Portfolio
 My career journey
