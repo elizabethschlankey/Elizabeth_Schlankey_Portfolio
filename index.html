@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Elizabeth Schlankey — Product Management Leader</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --ink:#2F2118;
@@ -107,6 +107,18 @@
     transition:background .2s ease;
   }
   .btn-block:hover{background:#C24E2C;}
+  .side-quote{
+    margin-top:24px; width:100%; text-align:center; border-top:1px solid var(--paper-2);
+    padding-top:22px;
+  }
+  .side-quote p{
+    font-family:'Dancing Script', cursive; font-size:26px; font-weight:700; line-height:1.35;
+    color:var(--copper); margin:0;
+  }
+  .side-quote cite{
+    display:block; margin-top:12px; font-family:'IBM Plex Mono', monospace; font-size:11.5px;
+    font-style:normal; font-weight:600; color:var(--slate); letter-spacing:0.04em; text-transform:uppercase;
+  }
 
   /* ---------- MAIN CONTENT ---------- */
   .content{flex:1; min-width:0; display:flex; flex-direction:column; gap:28px;}
@@ -388,6 +400,9 @@
       <div class="info-row"><span>Status</span><strong><span class="pulse-dot"></span>Open to Roles</strong></div>
     </div>
     <a href="mailto:elizabeth.schlankey@gmail.com" class="btn-block">Email Me &rarr;</a>
+    <div class="side-quote">
+      <p>&ldquo;We do not rise to the level of our goals, we fall to the level of our systems.&rdquo;<cite>&mdash; James Clear</cite></p>
+    </div>
   </aside>
 
   <main class="content">
